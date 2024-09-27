@@ -12,7 +12,7 @@ class Star(Sprite):
     def __init__(self,screen):
         super(Star,self).__init__()
         #星星的图像
-        self.image = pygame.image.load("D:/py/2024.3/pygame/Practice4/star_image/star.png")
+        self.image = pygame.image.load("D:/code/python/day03/src/xvhao/Practice4/star_image/star.png")
         self.rect = self.image.get_rect()
         #导入屏幕参数
         self.screen = screen
